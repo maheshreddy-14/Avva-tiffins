@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Avva Tiffin Stall</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Avva Tiffin Stall</h1>
+  <p>అవ్వ టిఫిన్ సెంటర్ – ఇంటి రుచి</p>
+</header>
+
+<section>
+  <h2>Menu</h2>
+
+  <div class="item">
+    <span>Idli – ₹40</span>
+    <button onclick="addItem(40)">Add</button>
+  </div>
+
+  <div class="item">
+    <span>Dosa – ₹60</span>
+    <button onclick="addItem(60)">Add</button>
+  </div>
+
+  <div class="item">
+    <span>Masala Dosa – ₹80</span>
+    <button onclick="addItem(80)">Add</button>
+  </div>
+
+  <h3>Total: ₹<span id="total">0</span></h3>
+</section>
+
+<section>
+  <h2>Payment</h2>
+  <p><b>UPI ID:</b> darlingz@axl</p>
+  <a id="upiLink" class="pay-btn">Pay Now</a>
+</section>
+
+<footer>
+  <p>📍 Location: Your Area</p>
+  <p>📞 Phone: 9XXXXXXXXX</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
